@@ -10,7 +10,8 @@ function App() {
   return (
     <>
       <h1 className='bg-green-400 text-black'>TailWind test</h1>
-      <Card/>
+      <Card laptop = "HP Pavilion" btnText="Click Me"/>
+      <Card laptop = "Dell Inspiron"/>
     </>
   )
 }
